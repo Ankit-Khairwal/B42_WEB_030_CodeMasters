@@ -2,7 +2,7 @@
 
 ## Project info
 
-[!image alt](https://github.com/Ankit-Khairwal/B42_WEB_030_CodeMasters/blob/52a39913b28c5de69acb87db0ba085bb49fb606f/talentp.png)
+![image alt](https://github.com/Ankit-Khairwal/B42_WEB_030_CodeMasters/blob/52a39913b28c5de69acb87db0ba085bb49fb606f/talentp.png)
 
 ## How can I edit this code?
 
@@ -16,7 +16,7 @@ Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-[!image alt](https://github.com/Ankit-Khairwal/B42_WEB_030_CodeMasters/blob/52a39913b28c5de69acb87db0ba085bb49fb606f/some.png)
+![image alt](https://github.com/Ankit-Khairwal/B42_WEB_030_CodeMasters/blob/52a39913b28c5de69acb87db0ba085bb49fb606f/some.png)
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
