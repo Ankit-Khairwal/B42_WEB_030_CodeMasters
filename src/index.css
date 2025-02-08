@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 80%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-['Inter'];
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card backdrop-blur-lg border border-white/10 shadow-lg;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-primary-foreground rounded-md 
+           hover:bg-primary-hover transition-all duration-200 
+           focus:outline-none focus:ring-2 focus:ring-primary/50;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-secondary text-secondary-foreground rounded-md 
+           hover:bg-secondary-hover transition-all duration-200 
+           focus:outline-none focus:ring-2 focus:ring-secondary/50;
+  }
+}
+
+.animate-page-transition {
+  animation: pageTransition 0.3s ease-out;
+}
+
+@keyframes pageTransition {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
